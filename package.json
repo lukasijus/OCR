@@ -1,0 +1,20 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "ocr application with tesseract.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Lukas Rimkus",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "tesseract.js": "^2.0.0-alpha.15"
+  },
+  "devDependencies": {
+    "nodemod": "^1.5.19"
+  }
+}
